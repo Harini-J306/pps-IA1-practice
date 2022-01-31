@@ -26,5 +26,8 @@ int main()
 {
   int n,sum;
   printf("enter the maximum value\n");
-  n=input()
+  n=input_n();
+  sum=sum_n(n);
+  output(n,sum);
+  return 0;
 }
